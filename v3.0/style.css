@@ -1,0 +1,162 @@
+.emailblock-container {
+	width: 273px;
+	height: 182px;
+	border: 1px solid rgba(67, 67, 67, 0.5);
+	position: absolute;
+
+ 	border-radius: 6px;
+ 	box-shadow: 1px 1px 7px #666;
+
+}
+
+.email-block {
+	margin-top: 4px;
+	display: flex;
+}
+
+a.button {
+	width: 229px;
+	height: 40px;
+	text-decoration: none;
+	color: #000000;
+	background-color: #E4E4E4;
+	text-align: center;
+	font: normal 14px arial;
+	position: absolute;
+	border-radius: 2px;
+
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+a.button:not(.active):hover,
+a.button:not(.active):focus {
+  	background-color: #D3D1CB;
+}
+
+a.email {
+	width: 40px;
+	height: 16px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 16px;
+	text-decoration: none;
+	color: #000000;
+
+}
+
+a.email:not(.active):hover {
+  	color: #FC2727;
+}
+
+
+a.reg-email {
+	width: 94px;
+	height: 16px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 16px;
+	text-decoration: none;
+	color: #808080;
+}
+
+a.reg-email:not(.active):hover {
+  	color: #FC2727;
+}
+
+
+a.get-plus {
+	width: 114px;
+	height: 19px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 16px;
+	text-decoration: none;
+	color: #90BCFF;
+	align-self: auto;
+}
+
+a.get-plus:not(.active):hover {
+	color: #FC2727;
+}
+
+a.buttonback {
+	width: 229px;
+	height: 40px;
+	text-decoration: none;
+	color: #000000;
+	background-color: #E4E4E4;
+	text-align: center;
+	font: normal 14px arial;
+	position: absolute;
+	border-radius: 2px;
+ 	left: 50%;
+ 	top: 50%;
+	justify-content: center;
+ 	align-items: center;
+}
+
+a.buttonback:not(.active):hover,
+a.buttonback:not(.active):focus {
+  	background-color: #D3D1CB;
+}
+
+.flex {
+	display: -webkit-flex; 
+	display: flex; 
+}
+
+.flex-button {
+	display: -webkit-flex; 
+	display: flex; 
+}
+
+.flex-container {
+	display: -webkit-flex; 
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	flex-flow: column;
+}
+
+.flex-get-plus {
+	display: flex;
+	align-self: auto;
+}
+
+.bbb {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.flex-container-top {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 18px;
+	margin-right: 21px;
+	margin-left: 21px;
+}
+
+.flex-container-middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 56px;
+}
+
+.flex-container-bottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: flex-end;
+	margin-top: 60px;
+}
